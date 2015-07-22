@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/agent"
+	"github.com/cv3/crypto/ssh"
+	"github.com/cv3/crypto/ssh/agent"
 
 	"github.com/pkg/sftp"
 )
